@@ -1,0 +1,14 @@
+{
+  "name": "mediaplayer",
+  "version": "1.0.0",
+  "description": "Creacion de mediaplayer con el curso de profesional de JS",
+  "main": "./assets/index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "Daniel Calderon",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
