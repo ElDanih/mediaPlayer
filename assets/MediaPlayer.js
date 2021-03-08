@@ -39,6 +39,10 @@ class MediaPlayer {
     this.media.play()
   }
 
+  pause () {
+    this.media.pause()
+  }
+
   togglePlay () {
     (this.media.paused)
       ? this.media.play()

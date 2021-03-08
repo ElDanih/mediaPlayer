@@ -8,8 +8,8 @@ const muteButton = document.getElementById("muteButton")
 const player = new MediaPlayer({ 
     element: video, 
     plugins : [ 
-        new AutoPlay
-        //,new AutoPause
+        new AutoPlay,
+        new AutoPause
         ] 
     })
 
